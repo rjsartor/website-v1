@@ -1,0 +1,27 @@
+.contact {
+  margin: 70px auto;
+  max-width: 60%;
+  height: 300px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact-logos {
+  margin: auto auto;
+  width: 125px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-icon {
+  text-decoration: none;
+  color: rgb(27, 27, 37)
+}
+
+.contact-icon:hover {
+  opacity: .7;
+  cursor: pointer;
+}

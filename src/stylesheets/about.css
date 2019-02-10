@@ -1,0 +1,43 @@
+
+.about {
+  background: rgb(29,29,37);
+  padding-top: 80px;
+  height: auto;
+}
+
+.about-text {
+  background: rgb(235,235,235);
+  padding: 18px 42px;
+  margin: auto auto;
+  box-sizing: border-box;
+  color: rgb(29,29,37);
+  max-width: 90%;
+}
+
+.skills {
+  color: rgb(218,218,218);
+  padding: 18px 42px;
+  margin: 10px 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.skills-lists {
+  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-list {
+  list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.skill-list h3 {
+  margin: 0px;
+}
+
+#me {
+  font-style: italic;
+}

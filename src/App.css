@@ -1,5 +1,26 @@
 .App {
-  text-align: center;
+  font-family: 'Palanquin Dark', sans-serif;
+  color: rgb(29,29,37);
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+}
+
+li {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
 }
 
 .App-logo {

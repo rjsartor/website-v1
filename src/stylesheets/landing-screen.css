@@ -1,0 +1,32 @@
+.introduction {
+  display: flex;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(28, 28, 37, 1) ), url('../images/cliffs.png');
+  align-items: center;
+  height: 98vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.intro-text {
+  /* justify-content: center; */
+  padding: 8px;
+  /* max-width: 70%; */
+  margin: 0 auto;
+  text-align: left;
+  width: 70%;
+  color: aliceblue;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.intro-text h2 {
+  font-style: italic;
+  margin-top: 0px;
+}
+

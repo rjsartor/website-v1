@@ -1,0 +1,77 @@
+.projects {
+  margin: auto auto;
+  margin-top: 70px;
+  text-align: center
+}
+
+.projects h1 {
+  margin-bottom: 20px;
+  color: rgb(29,29,37);
+}
+
+#projects-list {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  min-width: 200px;
+  height: auto;
+}
+
+.project-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project-item h2 {
+}
+
+#project-button {
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-info {
+  width: 100%;
+  max-width: 700px;
+  min-width: 200px;
+  height: auto;
+  padding: 0 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.github-icon {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+.github-icon:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(29,29,37)
+}
+
+.project-link:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.picture-link:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.project-description {
+  font-style: italic;
+}
