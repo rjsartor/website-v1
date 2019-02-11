@@ -1,6 +1,11 @@
+.body {
+  background-color:rgb(248,248,248);
+}
+
 .App {
   font-family: 'Palanquin Dark', sans-serif;
   color: rgb(29,29,37);
+  
 }
 
 h1 {
@@ -11,6 +16,11 @@ h1 {
 h2 {
   margin: 0;
   font-family: 'Palanquin Dark', sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-weight: lighter;
 }
 
 p {
@@ -21,6 +31,10 @@ p {
 li {
   font-family: 'Work Sans', sans-serif;
   font-weight: bolder;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .App-logo {

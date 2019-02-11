@@ -14,8 +14,6 @@ export default function About() {
               abstract and intangible thoughts, into real-world, living and breathing experiences.
               I'm just begnning my journey and I'm searching for the right team to help nuture 
               and develop my growth as a coder and shares my commitment to changing the world through great ideas.
-
-              Thanks for visiting my page.
             </p>
           </div>
           

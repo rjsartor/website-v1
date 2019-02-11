@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className='contact'>
       <h1>Contact Me</h1>
-      <p>Thanks for visiting my site! I'd love to hear from you.
+      <p>Thanks for visiting my page! I'd love to hear from you.
       </p>
 
       <p>If you'd like to chat, drop me a line at randal.sartor@gmail.com</p>

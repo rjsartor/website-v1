@@ -7,8 +7,17 @@ export default class Navbar extends React.Component{
     return (
     <nav className='nav' id='navbar'>
       <ul className='nav-items'>
-        <li className='logoDiv'>
-          <h2>RS</h2>
+        <li className='logo-div'>
+          <Link
+            activeClass='active'
+            to='introduction'
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+          >
+          RS
+          </Link>
         </li>
         <li className='buttons-div'>
 
@@ -19,7 +28,7 @@ export default class Navbar extends React.Component{
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={1000}
               >
               About
               </Link>
@@ -31,7 +40,7 @@ export default class Navbar extends React.Component{
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={1000}
               >
               Projects
               </Link>
@@ -43,7 +52,7 @@ export default class Navbar extends React.Component{
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={1000}
               >
               Experience
               </Link>
@@ -55,7 +64,7 @@ export default class Navbar extends React.Component{
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={1000}
             >
             Contact
             </Link>

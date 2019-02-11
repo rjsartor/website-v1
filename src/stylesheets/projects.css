@@ -22,8 +22,11 @@
 }
 
 .project-item {
-  margin-bottom: 30px;
   text-align: center;
+  box-shadow: 0 20px 80px 0 rgba(0,0,0,.45);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 42px;
 }
 
 .project-item h2 {
@@ -42,6 +45,7 @@
   min-width: 200px;
   height: auto;
   padding: 0 40px;
+  padding-bottom: 24px;
   text-align: center;
   margin: 0 auto;
 }

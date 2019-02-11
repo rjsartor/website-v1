@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  padding: 20px 40px;
+  padding: 20px 15px;
   margin: 0px;
   list-style: none;
   color: darkgray;
@@ -19,9 +19,15 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  flex-shrink: 1;
 }
 
 .nav-item {
-  margin: 0 20px;
+  margin: 0 6px;
+}
+
+.logo-div {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 26px;
+  color: whitesmoke;
+  margin-left: 20px;
 }
