@@ -45,7 +45,7 @@ export default class Navbar extends React.Component{
               Projects
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 activeClass='active'
                 to='experience'
@@ -56,7 +56,7 @@ export default class Navbar extends React.Component{
               >
               Experience
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
             <Link
               activeClass='active'

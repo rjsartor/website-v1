@@ -17,7 +17,7 @@ export default class Projects extends React.Component {
                   <span><a className='github-icon' href="https://github.com/thinkful-ei26/randys-mealcraft-client" target="_blank" rel="noopener noreferrer"><i class="devicon-github-plain"></i></a></span>
                 </h2>
                 <p className='project-description'>Find and save your next meal searching from over 300,000 of the internets best recipes!</p>
-                <p>TechStack: React/Redux for frontend, Node.js/MongoDB for backend and databse management. Uses the Spoontacular API and hosted on Heroku.</p>
+                <p><i class="devicon-javascript-plain colored"></i> , <i class="devicon-react-original colored"></i> <i class="devicon-mongodb-plain colored"></i> <i class="devicon-nodejs-plain colored"></i> <i class="devicon-heroku-plain colored"></i> </p>
               </div>  
           </li>
           <li className='project-item'>

@@ -66,7 +66,7 @@ export class Experience extends React.Component {
 
     return (
       <section className='experience'>
-        <h1>Experience</h1>
+        <h1>Education</h1>
         <article className='experience-content'>
           <div className='northeastern experience-card' onClick={() => this.showNortheastern()}>
             <img className='experience-img' src={require('../images/neu-logo.png')} alt='northeastern university'>
