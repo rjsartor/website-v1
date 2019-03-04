@@ -12,8 +12,7 @@ export default function About() {
               I've always been fascinated by the endless flow of human ideas.
               I decided to become a developer so I could help people turn those ideas from
               abstract and intangible thoughts, into real-world experiences.
-              I'm just begnning my journey and I'm searching for a team to help nuture my growth as a programmer,
-              and that shares my commitment to changing the world through great ideas.
+              I'm just beginning my journey and I'm searching for a team that helps nurture my growth as a programmer and shares my commitment to changing the world through great ideas.
             </p>
           </div>
           
