@@ -1,11 +1,18 @@
 .contact {
-  margin: 70px auto;
-  max-width: 60%;
+  margin: 80px auto;
+  padding: 40px;
   height: 300px;
+  border-top: 1px lightgrey solid;
+  text-align: center;
 }
 
 .contact h1 {
   text-align: center;
+}
+
+.contact p {
+  color: rgb(60, 60, 60);
+  font-weight: lighter;
 }
 
 .contact-logos {

@@ -11,9 +11,9 @@
   font-weight: bolder;
 }
 
-.nav-item > .active {
-  font-weight: bold;
-}
+/* .nav-item > .active {
+  text-decoration: underline;
+} */
 
 .buttons-div {
   display: flex;
@@ -30,4 +30,16 @@
   font-size: 26px;
   color: whitesmoke;
   margin-left: 20px;
+}
+
+#RSlogo{
+  color: darkgrey;
+  transition: all .8s ease-out;
+  display: inline-block;
+}
+
+#RSlogo:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  color: black;
 }

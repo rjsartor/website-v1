@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link
+  // , animateScroll as scroll 
+} from 'react-scroll';
 import '../stylesheets/top-nav.css'
 
 export default class Navbar extends React.Component{
@@ -15,12 +17,12 @@ export default class Navbar extends React.Component{
             smooth={true}
             offset={0}
             duration={1000}
+            id="RSlogo"
           >
           RS
           </Link>
         </li>
-        <li className='buttons-div'>
-
+        <div className='buttons-div'>
           <li className='nav-item'>
               <Link
                 activeClass='active'
@@ -70,7 +72,7 @@ export default class Navbar extends React.Component{
             </Link>
           </li>
 
-        </li>
+        </div>
 
           
       </ul>

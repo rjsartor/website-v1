@@ -17,4 +17,3 @@ export const showLewagonInfo = () => {
     type: SHOW_LEWAGON_INFO,
   }
 }
-

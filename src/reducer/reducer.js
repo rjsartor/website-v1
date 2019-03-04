@@ -19,7 +19,7 @@ const portfolioReducer = (state=initialState, action) => {
     return Object.assign({}, state, {
       showLewagon: !state.showLewagon,
     })
-  } 
+  }
   return state
 }
 

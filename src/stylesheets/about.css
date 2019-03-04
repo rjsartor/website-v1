@@ -1,8 +1,12 @@
-
 .about {
   background: rgb(29,29,37);
   padding-top: 80px;
   height: auto;
+}
+
+.about p {
+  color: rgb(60, 60, 60);
+  font-weight: lighter;
 }
 
 .about-text {
@@ -32,6 +36,13 @@
   list-style: none;
     display: inline-block;
     padding: 0;
+    text-align: left;
+}
+
+.skill-list li {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .skill-list h3 {
@@ -40,8 +51,5 @@
 
 #me {
   font-style: italic;
-}
-
-#logo{
-  color: whitesmoke;
+  /* color: black; */
 }

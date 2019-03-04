@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/contact.css'
-import Form  from './form';
+// import Form  from './form';
 
 export default function Contact() {
   return (
@@ -11,8 +11,8 @@ export default function Contact() {
 
       <p>If you'd like to chat, drop me a line at randal.sartor@gmail.com</p>
       <div className='contact-logos'>
-        <a className='contact-icon' href="https://github.com/thinkful-ei26/randys-mealcraft-client" target="_blank" rel="noopener noreferrer"><i class="devicon-github-plain"></i></a>
-        <a className='contact-icon' href="https://www.linkedin.com/in/randal-sartor-6a377844/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a className='contact-icon' href="https://github.com/thinkful-ei26/randys-mealcraft-client" target="_blank" rel="noopener noreferrer"><i className="devicon-github-plain"></i></a>
+        <a className='contact-icon' href="https://www.linkedin.com/in/randal-sartor-6a377844/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
       </div>
 
       {/* <Form /> */}
