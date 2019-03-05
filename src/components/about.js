@@ -11,12 +11,12 @@ export default function About() {
             <p>
               I've always been fascinated by the endless flow of human ideas.
               I decided to become a developer so I could help people turn those ideas from
-              abstract and intangible thoughts, into real-world experiences.
-              I'm just beginning my journey and I'm searching for a team that helps nurture my growth as a programmer and shares my commitment to changing the world through great ideas.
+              abstract and intangible thoughts, into real-life experiences.
+              I'm just beginning my journey and I'm searching for the right company and team that shares my commitment to changing the world through great ideas.
             </p>
           </div>
           
-         <div className='skills'>
+          <div className='skills'>
             <h2>Skills</h2>
             <div className='skills-lists'>
               <ul className='skill-list'>
