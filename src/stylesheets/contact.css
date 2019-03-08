@@ -24,6 +24,7 @@
   font-size: 40px;
   display: flex;
   justify-content: space-between;
+  color: rgb(16,27,59);
 }
 
 .contact-icon {
