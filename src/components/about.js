@@ -4,8 +4,8 @@ import '../stylesheets/about.css'
 
 export default function About() {
   return (
-    <div className='about'>
-      <div className='about-text'>
+    <main className='about'>
+      <section className='about-text'>
         <p id='me'>I'm Randy Sartor, a 27 year-old full-stack developer.</p>
         <p>
           I've always been fascinated by the endless flow of human ideas.
@@ -13,11 +13,11 @@ export default function About() {
           abstract and intangible thoughts, into real-life experiences.
           I'm just beginning my journey and I'm searching for the right company and team that shares my commitment to changing the world through great ideas.
         </p>
-      </div>
+      </section>
       
-      <div className='skills'>
+      <section className='skills'>
         <h1>Skills</h1>
-        <div className='skills-lists'>
+        <article className='skills-lists'>
           <ul className='skill-list'>
             <h3>Front end</h3>
             <li><i className="devicon-javascript-plain colored"></i> Javascript</li> 
@@ -43,8 +43,8 @@ export default function About() {
             <li><i className="devicon-heroku-plain colored"></i> Heroku</li> 
             <li><i className="devicon-travis-plain colored"></i> TravisCI</li>
           </ul>     
-        </div>
-      </div>     
-    </div>
+        </article>
+      </section>     
+    </main>
   )
 }

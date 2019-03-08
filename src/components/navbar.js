@@ -37,7 +37,7 @@ export default class Navbar extends React.Component{
           RS
           </Link>
         </li>
-        <div className='buttons-div'>
+        <article className='buttons-div'>
           <li className='nav-item'>
               <Link
                 activeClass='active'
@@ -93,10 +93,7 @@ export default class Navbar extends React.Component{
             Contact
             </Link>
           </li>
-
-        </div>
-
-          
+        </article>
       </ul>
     </nav>
     )
