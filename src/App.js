@@ -9,13 +9,16 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 
 class App extends Component {
+
+
   render() {
+
     return (
       <div className="App">
         <Navbar sliding={true}/>
         <LandingScreen />
         <About />
-        <Projects />
+        <Projects navbar={<Navbar />}/>
         {/* <Experience /> */}
         <Contact />
         <Footer />

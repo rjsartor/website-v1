@@ -9,7 +9,7 @@ export default function LandingScreen(props) {
           <h1>Randy J Sartor</h1>
         </header>
         <div className='description'>
-          <p id='me'>Traveler, learner, developer</p>
+          <p>Traveler, learner, developer</p>
         </div>
       </div>
     </section>

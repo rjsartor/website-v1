@@ -1,3 +1,21 @@
+.nav-white a {
+  color: darkgrey;
+  transition: all .8s ease-out;
+}
+
+.nav-white a:hover {
+  color: whitesmoke;
+}
+
+.nav-black a {
+  color: rgba(28, 28, 37, 1);
+  transition: all .8s ease-out;
+}
+
+.nav-black a:hover {
+  color: darkgrey;
+}
+
 .nav-items {
   position: fixed;
   display: flex;
@@ -6,9 +24,7 @@
   padding: 20px 15px;
   margin: 0px;
   list-style: none;
-  color: darkgray;
-  font-style: bolder;
-  font-weight: bolder;
+  z-index: 1000;
 }
 
 /* .nav-item > .active {
@@ -19,27 +35,33 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  padding-right: 48px;
 }
 
-.nav-item {
+.nav-item a {
   margin: 0 6px;
+  text-decoration: none;
+  /* color: darkgray; */
+  font-style: bolder;
+  font-weight: bolder;
 }
 
 .logo-div {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 26px;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   margin-left: 20px;
 }
 
 #RSlogo{
-  color: darkgrey;
+  /* color: darkgrey; */
   transition: all .8s ease-out;
   display: inline-block;
+  text-decoration: none;
 }
 
 #RSlogo:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-  color: black;
+  color: darkgrey;
 }

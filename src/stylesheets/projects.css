@@ -5,8 +5,55 @@
 }
 
 .projects h1 {
+  font-size: 38px;
   margin-bottom: 20px;
   color: rgb(29,29,37);
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.picture-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  min-width: 200px;
+  height: auto;
+}
+
+.picture-wrap:hover .overlay {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 100;
+  /* visibility: hidden; */
+  background: linear-gradient(270deg,rgba(2, 11, 37, 0.9),rgba(29,29,37,.9));
+
+  /* background: linear-gradient(270deg,rgba(35,90,166,.9),rgba(16,27,59,.9)); */
+  transition: .5s ease;
+}
+
+.text {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: whitesmoke;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  opacity: 1;
+  font-style: italic;
 }
 
 #projects-list {
@@ -16,7 +63,7 @@
 
 .responsive {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   min-width: 200px;
   height: auto;
 }
@@ -24,7 +71,7 @@
 .project-item {
   text-align: center;
   box-shadow: 0 20px 80px 0 rgba(0,0,0,.45);
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 42px;
 }
@@ -52,7 +99,7 @@
 
 .github-icon {
   text-decoration: none;
-  color: black;
+  color: rgb(16,27,59);
   padding-left: 10px;
 }
 
@@ -63,7 +110,7 @@
 
 .project-link {
   text-decoration: none;
-  color: rgb(29,29,37);
+  color:rgb(16,27,59);
   transition: all .5s ease-out;
 }
 
@@ -72,10 +119,10 @@
   cursor: pointer;
 }
 
-.picture-link:hover {
+/* .picture-link:hover {
   cursor: pointer;
   opacity: .7;
-}
+} */
 
 .project-description {
   font-style: italic;
