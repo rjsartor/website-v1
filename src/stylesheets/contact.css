@@ -36,3 +36,12 @@
   opacity: .7;
   cursor: pointer;
 }
+
+#email a {
+  text-decoration: none;
+  color: #1d1d25;
+}
+
+#email a:hover {
+  opacity: .8;
+}

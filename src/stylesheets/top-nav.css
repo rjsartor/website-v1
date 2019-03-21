@@ -7,6 +7,14 @@
   color: whitesmoke;
 }
 
+.dark-background .nav-items {
+  background:rgba(28, 28, 37);
+}
+
+.nav-black .nav-items{
+  background: #ffffff;
+}
+
 .nav-black a {
   color: rgba(28, 28, 37, 1);
   transition: all .8s ease-out;
@@ -58,6 +66,7 @@
   transition: all .8s ease-out;
   display: inline-block;
   text-decoration: none;
+  margin-right: 160px;
 }
 
 #RSlogo:hover {

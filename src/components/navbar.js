@@ -18,6 +18,10 @@ export default class Navbar extends React.Component{
     this.setState({className: 'nav-black'});
   }
 
+  handleSetActiveAbout() {
+    this.setState({className: 'nav-white dark-background'});
+  }
+
   render() {
 
     return (
@@ -47,7 +51,7 @@ export default class Navbar extends React.Component{
                 smooth={true}
                 offset={0}
                 duration={1000}
-                onSetActive={() => this.handleSetActiveWhite()}
+                onSetActive={() => this.handleSetActiveAbout()}
               >
               About
               </Link>

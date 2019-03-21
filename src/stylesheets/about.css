@@ -1,6 +1,7 @@
 .about {
   background: rgb(29,29,37);
   padding-top: 80px;
+  padding-bottom: 40px;
   height: auto;
 }
 
@@ -16,6 +17,7 @@
   box-sizing: border-box;
   color: rgb(29,29,37);
   max-width: 90%;
+  line-height: 24px;
 }
 
 .skills {
