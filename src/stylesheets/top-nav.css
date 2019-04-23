@@ -45,6 +45,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding-right: 48px;
+  font-size: 18px;
 }
 
 .nav-item a {
@@ -68,6 +69,7 @@
   display: inline-block;
   text-decoration: none;
   margin-right: 160px;
+  margin-left: 20px;
 }
 
 #RSlogo:hover {
