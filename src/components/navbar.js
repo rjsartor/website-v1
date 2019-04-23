@@ -63,7 +63,7 @@ export default class Navbar extends React.Component{
                 to='projects'
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-115}
                 duration={1000}
                 onSetActive={() => this.handleSetActiveBlack()}
 

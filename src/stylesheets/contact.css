@@ -37,11 +37,15 @@
   cursor: pointer;
 }
 
-#email a {
-  text-decoration: none;
+#email {
   color: #1d1d25;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-#email a:hover {
+#email:hover {
   opacity: .8;
 }
+
+
+
