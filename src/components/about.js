@@ -1,7 +1,6 @@
 import React from 'react';
 import '../stylesheets/about.css'
 
-
 export default function About() {
   return (
     <main className='about'>

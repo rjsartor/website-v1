@@ -1,4 +1,4 @@
-/* .experience {
+.experience {
   background: rgb(29,29,37);
   min-height: 60vh;
   text-align: center;
@@ -33,6 +33,9 @@
 
 .experience-img:hover {
   opacity: .5;
+  transition: all .8s ease-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .experience-card {
@@ -41,6 +44,11 @@
   margin-bottom: 20px;
   cursor: pointer;
   font-size: 14px;
+  padding: 10px;
+}
+
+.experience-card:hover {
+  box-shadow: 0 4px 40px 0 rgba(0,0,0,0.35);
 }
 
 .experience-card h3 {
@@ -55,4 +63,3 @@
 .experience-dates {
   margin: 6px;
 }
- */

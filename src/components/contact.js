@@ -11,11 +11,11 @@ export default function Contact() {
 
       <p>If you'd like to chat, drop me a line at <a id='email' href="mailto:randal.sartor@gmail.com">randal.sartor@gmail.com</a></p>
       <article className='contact-logos'>
-        <a className='contact-icon' href="https://github.com/thinkful-ei26/randys-mealcraft-client" target="_blank" rel="noopener noreferrer"><i className="devicon-github-plain"></i></a>
+        <a className='contact-icon' href="https://github.com/Rjsartor" target="_blank" rel="noopener noreferrer"><i className="devicon-github-plain"></i></a>
         <a className='contact-icon' href="https://www.linkedin.com/in/randal-sartor-6a377844/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
       </article>
 
-      {/* <Form /> */}
+       {/*<Form /> */}
     </section>
   )
 }
