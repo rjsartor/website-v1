@@ -19,7 +19,7 @@ export default function About() {
         <article className='skills-lists'>
           <ul className='skill-list'>
             <h3>Front end</h3>
-            <li><i className="devicon-javascript-plain colored"></i> Javascript</li> 
+            <li><i className="devicon-javascript-plain colored"></i>Javascript</li> 
             <li><i className="devicon-react-original colored"></i> React/Redux</li> 
             
             <li><i className="devicon-vuejs-plain colored"></i> Vue</li>
